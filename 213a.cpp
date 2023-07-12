@@ -67,9 +67,10 @@ int main()
     cout << c2;
     cout << c4;
 
-    Complex c5;
+    Complex c5, c6;
     c5 >> cin;
-    cout << c5;
+    c6 >> cin;
+    cout << c5 << c6;
 
     return 0;
 }
