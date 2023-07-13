@@ -20,13 +20,15 @@ public:
 
     friend Complex operator*(Complex a, Complex b);
 
-    Complex& operator++() {
+    Complex& operator++() // prefix
+    {
         real = real + 1;
         img = img + 1;
         return *this;
     }
 
-    Complex operator++(int) {
+    Complex operator++(int) // postfix
+    {
         Complex temp = *this;
         ++(*this);
         return temp;
