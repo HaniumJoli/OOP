@@ -2,6 +2,9 @@
 Composition represents a "has-a" relationship, where one class is composed of another class. 
 In this case, the Car class has a Engine class as one of its member variables.
  */
+#include <iostream>
+#include <string>
+using namespace std;
 class Engine {
 private:
     int horsepower;

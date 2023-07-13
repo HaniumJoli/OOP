@@ -3,6 +3,10 @@
  one class has another class as a member, 
  but the member class has an independent existence.
  */
+#include <iostream>
+#include <string>
+#include <vector>
+using namespace std;
 class Wheel {
 private:
     int size;
